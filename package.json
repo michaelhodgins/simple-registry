@@ -1,0 +1,22 @@
+{
+  "name": "simple-registry",
+  "version": "0.1.0",
+  "description": "A simple registry for saving and retrieving objects and values.",
+  "main": "registry.coffee",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --compilers coffee:coffee-script -G -u bdd ./test"
+  },
+  "repository": "",
+  "keywords": [
+    "registry"
+  ],
+  "author": "Michael Hodgins",
+  "license": "BSD",
+  "devDependencies": {
+    "mocha": "~1.8.1",
+    "should": "~1.2.2"
+  },
+  "dependencies": {
+    "coffee-script": "~1.6.1"
+  }
+}
