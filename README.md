@@ -8,11 +8,11 @@ npm install simple-registry
 
 ##Use
 
-registry = require('simple-registry');
+    registry = require('simple-registry');
 
-registry.set('my-object', myObject);
-registry.has('my-object');
-var obj = registry.get('my-object');
-registry.remove('my-object');
+    registry.set('my-object', myObject);
+    registry.has('my-object');
+    var obj = registry.get('my-object');
+    registry.remove('my-object');
 
 Easy!
