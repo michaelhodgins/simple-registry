@@ -2,7 +2,7 @@
   "name": "simple-registry",
   "version": "0.2.1",
   "description": "A simple registry for saving and retrieving objects and values.",
-  "main": "registry.coffee",
+  "main": "registry.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha --compilers coffee:coffee-script -G -u bdd ./test",
     "compile": "./node_modules/coffee-script/bin/coffee -o . -cb src/registry.coffee",
