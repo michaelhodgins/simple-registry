@@ -1,6 +1,6 @@
 {
   "name": "simple-registry",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "A simple registry for saving and retrieving objects and values.",
   "main": "registry.js",
   "scripts": {
